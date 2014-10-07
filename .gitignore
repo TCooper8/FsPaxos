@@ -60,6 +60,32 @@ dlldata.c
 *.svclog
 *.scc
 
+#Xamarin
+
+*.userprefs
+*.swp
+*.DS_Store
+*.nib
+
+*/bin/*
+*/obj/*
+*/*/bin/*
+*/*/obj/*
+*/*/*/bin/*
+*/*/*/obj/*
+*_ReSharper.*/
+
+*/*/Resource.designer.cs
+*/*/*/Resource.designer.cs
+*/*/*/*/Resource.designer.cs
+
+InAppPurchase/ComponentSample/Components/
+
+RazorTodoList/packages/
+RazorTodoList/Components/
+RazorTodoADO/packages/
+RazorTodoADO/Components/
+
 # Chutzpah Test files
 _Chutzpah*
 
